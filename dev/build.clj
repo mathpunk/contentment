@@ -1,4 +1,4 @@
 (ns build)
 
 (defn -main [& args]
-  (spit "dist/index.html" "<h1>Hello!</h1>"))
+  (spit "resources/public/index.html" "<h1>Hello!</h1>"))
